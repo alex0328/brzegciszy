@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     fill="none"
+     stroke="black"
+     stroke-width="8"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+  <!-- Arch -->
+  <path d="M110 340A170 170 0 0 1 402 340"/>
+
+  <!-- Sun -->
+  <circle cx="330" cy="140" r="16"/>
+
+  <!-- Birds -->
+  <path d="M375 150q10-10 20 0"/>
+  <path d="M397 150q10-10 20 0"/>
+
+  <!-- Island -->
+  <path d="M105 335
+           C135 320 170 315 205 330
+           C190 345 145 348 105 335Z"
+        fill="currentColor"
+        stroke="none"/>
+
+  <!-- Main pine -->
+  <path d="M165 315V180"/>
+  <path d="M165 185
+           l-24 26
+           h18
+           l-28 30
+           h22
+           l-32 34
+           h88
+           l-32-34
+           h22
+           l-28-30
+           h18
+           z"/>
+
+  <!-- Left pine -->
+  <path d="M125 315V225"/>
+  <path d="M125 230
+           l-16 18
+           h12
+           l-18 20
+           h14
+           l-20 22
+           h56
+           l-20-22
+           h14
+           l-18-20
+           h12
+           z"/>
+
+  <!-- Right pine -->
+  <path d="M205 315V235"/>
+  <path d="M205 240
+           l-15 17
+           h11
+           l-17 19
+           h13
+           l-18 21
+           h52
+           l-18-21
+           h13
+           l-17-19
+           h11
+           z"/>
+
+  <!-- Distant hills -->
+  <path d="M245 285
+           C280 270 315 275 345 285
+           C375 270 410 275 440 285"/>
+
+  <!-- Water -->
+  <path d="M220 320h200"/>
+  <path d="M235 340h70"/>
+  <path d="M325 340h55"/>
+  <path d="M250 360h110"/>
+  <path d="M340 360h45"/>
+  <path d="M235 380h80"/>
+  <path d="M335 380h60"/>
+
+  <!-- Reeds -->
+  <path d="M405 335V265"/>
+  <path d="M425 335V250"/>
+  <path d="M390 335c8-22 12-45 15-70"/>
+  <path d="M440 335c-6-25-10-50-12-78"/>
+
+  <!-- Reed heads -->
+  <ellipse cx="405" cy="258" rx="5" ry="14"/>
+  <ellipse cx="425" cy="243" rx="5" ry="14"/>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 128 128"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2.5"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+  <!-- Sun -->
+  <circle cx="102" cy="22" r="6"/>
+
+  <!-- Mountains -->
+  <path d="M18 74l18-22 16 20 12-14 18 22"/>
+
+  <!-- Bridge -->
+  <line x1="18" y1="82" x2="110" y2="82"/>
+  <path d="M28 82v18"/>
+  <path d="M46 82v18"/>
+  <path d="M64 82v18"/>
+  <path d="M82 82v18"/>
+  <path d="M100 82v18"/>
+
+  <!-- Bridge arch -->
+  <path d="M18 82c14-18 78-18 92 0"/>
+
+  <!-- River -->
+  <path d="M14 108c10-4 18 4 28 0s18-4 28 0 18 4 28 0"/>
+
+  <!-- Small bicycle -->
+  <circle cx="30" cy="46" r="6"/>
+  <circle cx="46" cy="46" r="6"/>
+  <path d="M30 46l8-10 8 10-8-2-6-8"/>
+  <path d="M38 36h8"/>
+
+</svg>

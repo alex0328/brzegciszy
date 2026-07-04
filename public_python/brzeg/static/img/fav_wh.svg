@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 500">
+
+  <rect width="500" height="500" color="white" fill="transparent"/>
+
+  <g fill="#FFF">
+    <text x="105"
+          y="330"
+          font-family="Times New Roman, Georgia, serif"
+          font-size="250"
+          color="white"
+          font-weight="700">B</text>
+
+    <text x="215"
+          y="360"
+          font-family="Times New Roman, Georgia, serif"
+          font-size="250"
+          color="white"
+          font-weight="400">C</text>
+  </g>
+
+</svg>

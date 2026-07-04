@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 128 128"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="2.5"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+  <!-- House -->
+  <path d="M36 60l28-22 28 22"/>
+  <path d="M42 58v34h44V58"/>
+  <path d="M58 92V74h12v18"/>
+
+  <!-- Sun -->
+  <circle cx="98" cy="28" r="7"/>
+  <path d="M98 15v5"/>
+  <path d="M98 36v5"/>
+  <path d="M85 28h5"/>
+  <path d="M106 28h5"/>
+
+  <!-- Snowflake -->
+  <path d="M24 22v12"/>
+  <path d="M18 28h12"/>
+  <path d="M20 24l8 8"/>
+  <path d="M20 32l8-8"/>
+
+  <!-- Leaf -->
+  <path d="M22 54c8-8 16-6 18 2-2 10-12 14-18 10-4-4-3-8 0-12z"/>
+  <path d="M24 62c4-4 8-8 14-10"/>
+
+  <!-- Bird -->
+  <path d="M88 52c4-5 8-5 12 0"/>
+  <path d="M100 52c4-5 8-5 12 0"/>
+
+  <!-- Ground -->
+  <path d="M18 102c16-6 32 6 46 0s30-6 46 0"/>
+
+</svg>

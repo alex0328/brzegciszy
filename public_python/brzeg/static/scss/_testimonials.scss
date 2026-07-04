@@ -1,0 +1,31 @@
+/* --------------- testimonials st1 --------------- */
+.tc-testimonials-st1 {
+    position: relative;
+    padding-top: 100px;
+
+    .testimonials-slider {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .testi-card {
+        position: relative;
+        .main-txt {
+            position: relative;
+            padding-inline-start: 200px;
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .tc-testimonials-st1 {
+        .testi-card {
+            .main-txt {
+                padding: 0;
+            }
+        }
+    }
+}

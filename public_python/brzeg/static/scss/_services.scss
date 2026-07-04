@@ -1,0 +1,72 @@
+/* --------------- services st1 --------------- */
+.tc-services-st1 {
+    position: relative;
+    overflow: hidden;
+
+    .img {
+        height: 100%;
+        min-height: 350px;
+    }
+
+    .lg-txt {
+        position: relative;
+        font-size: 280px;
+        line-height: 0.7;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff1;
+        white-space: nowrap;
+        // span {
+        //     &:nth-of-type(6) {
+        //         color: #fff;
+        //     }
+        // }
+    }
+
+    .service-card {
+        position: relative;
+        display: flex;
+        margin-top: 50px;
+        .icon {
+            width: 80px;
+            height: 70px;
+            margin-inline-end: 40px;
+            flex-shrink: 0;
+            margin-top: 10px;
+        }
+    }
+
+}
+
+.light-theme {
+    .tc-services-st1 .lg-txt {
+        -webkit-text-stroke: 1px #9992;
+    }
+}
+
+
+@media screen and (min-width: 991px) {
+    .tc-services-st1 {
+        padding-inline-end: calc((100vw - 1320px) / 2 );
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .tc-services-st1 {
+        .lg-txt {
+            font-size: 100px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        .service-cards {
+            padding: 15px;
+            .service-card {
+                .icon {
+                    height: 60px;
+                    margin-inline-end: 20px;
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

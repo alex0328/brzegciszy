@@ -1,0 +1,130 @@
+
+
+/* --------------- variable --------------- */
+:root{
+    --cr-gold1:#BC9B73;
+    --cr-dark1:#151515;
+    --cr-light1:#F8FAFD;
+}
+  
+// ------------------ colors -------------------
+
+
+// ------------------ gold1 ------------------
+
+.cr-gold1 {
+    color: var(--cr-gold1) !important;
+}
+
+.bg-gold1 {
+    background: var(--cr-gold1) !important;
+    color: #fff !important;
+}
+
+.border-gold1 {
+    border-color: var(--cr-gold1) !important;
+}
+
+.hover-gold1:hover {
+    color: var(--cr-gold1) !important;
+} 
+
+.hover-bg-gold1:hover {
+    background: var(--cr-gold1) !important;
+    border-color: var(--cr-gold1) !important;
+    color: #fff !important;
+    *{
+        color: #fff !important;
+    }
+}
+
+
+
+
+// ------------------ light1 ------------------
+
+.cr-light1 {
+    color: var(--cr-light1) !important;
+}
+
+.bg-light1 {
+    background: var(--cr-light1) !important;
+    color: var(--cr-dark1) !important;
+}
+
+.border-light1 {
+    border-color: var(--cr-light1) !important;
+}
+
+.hover-light1:hover {
+    color: var(--cr-light1) !important;
+} 
+
+.hover-bg-light1:hover {
+    background: var(--cr-light1) !important;
+    border-color: var(--cr-light1) !important;
+    color: #fff !important;
+    *{
+        color: #fff;
+    }
+}
+
+
+// ------------------ dark1 ------------------
+
+.cr-dark1 {
+    color: var(--cr-dark1) !important;
+}
+
+.bg-dark1 {
+    background: var(--cr-dark1) !important;
+    color: #fff !important;
+}
+
+.border-dark1 {
+    border-color: var(--cr-dark1) !important;
+}
+
+.hover-dark1:hover {
+    color: var(--cr-dark1) !important;
+} 
+
+.hover-bg-dark1:hover {
+    background: var(--cr-dark1) !important;
+    border-color: var(--cr-dark1) !important;
+    color: #fff !important;
+    *{
+        color: #fff;
+    }
+}
+
+
+// ----------- hovers -----------
+.hover-white:hover{
+    color: #fff !important;
+}
+
+.hover-bg-white:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+    * {
+        color: #000;
+    }
+}
+
+.hover-black:hover{
+    color: #000 !important;
+}
+
+.hover-bg-black:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+    * {
+        color: #fff;
+    }
+}
+
+
+.border-black {
+    border-color: #000;
+}

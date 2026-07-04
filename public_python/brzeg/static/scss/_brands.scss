@@ -1,0 +1,75 @@
+/* --------------- brands st1 --------------- */
+.tc-brands-st1 {
+    position: relative;
+    padding: 80px 4vw;
+
+    .sm-title {
+        position: relative;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 50px;
+        &::after {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            height: 1px;
+            width: 100%;
+            background-color: #fff2;
+        }
+        .txt {
+            position: relative;
+            background-color: #111;
+            z-index: 10;
+            padding: 0 40px;
+        }
+    }
+
+    .brands {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        .brand {
+            position: relative;
+            height: 70px;
+            text-align: center;
+            margin-bottom: 40px;
+            filter: grayscale(1);
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+            &:hover {
+                filter: grayscale(0);
+            }
+        }
+    }
+
+}
+
+.light-theme {
+    .tc-brands-st1 {
+        .sm-title {
+            &::after {
+                background-color: #999;
+            }
+            .txt {
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .tc-brands-st1 {
+        .brands {
+            flex-wrap: wrap;
+            .brand {
+                height: 50px;
+                margin: 10px;
+            }
+        }
+    }
+}

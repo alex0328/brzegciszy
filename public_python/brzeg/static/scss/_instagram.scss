@@ -1,0 +1,42 @@
+/* --------------- instagram st1 --------------- */
+.tc-instagram-st1 {
+    position: relative;
+
+    .img {
+        position: relative;
+        height: 350px;
+        display: block;
+    }
+
+    .float-cursor {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        color: var(--cr-gold1);
+        text-transform: uppercase;
+        font-size: 16px;
+        z-index: 30;
+        pointer-events: none;
+        padding: 30px;
+        text-align: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .tc-instagram-st1 {
+        .img {
+            height: 200px;
+            margin-top: 15px;
+        }
+    }
+}

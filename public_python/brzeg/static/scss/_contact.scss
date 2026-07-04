@@ -1,0 +1,25 @@
+/* --------------- contact st1 --------------- */
+.tc-contact-st1 {
+    position: relative;
+    padding-top: 120px;
+    z-index: 20;
+
+    .main-img {
+        position: relative;
+        height: 500px;
+        margin-top: -300px;
+        z-index: -1;
+    }
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .tc-contact-st1 {
+        .main-img {
+            height: max-content;
+            margin: 0;
+        }
+    }
+}
