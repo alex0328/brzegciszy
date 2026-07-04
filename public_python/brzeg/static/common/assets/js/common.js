@@ -1,5 +1,9 @@
 $( function() {
 
+const isiOS =
+    /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
     var wind = $(window);
 
     wow = new WOW({
@@ -255,6 +259,14 @@ $(function () {
     gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
     const smoother = ScrollSmoother.create({
+
+    if (!isiOS) {
+    ScrollSmoother.create({
+        smooth: 2,
+        effects: true
+    });
+}
+
         content: "#scrollsmoother-container",
         smooth: 1.5,
         normalizeScroll: true,

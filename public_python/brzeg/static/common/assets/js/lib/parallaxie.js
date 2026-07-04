@@ -9,6 +9,12 @@
 
 (function( $ ){
 
+if (!isiOS) {
+    $('.bg-img').parallaxie({
+        speed: 0.5
+    });
+}
+
     $.fn.parallaxie = function( options ){
 
         options = $.extend({
