@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-qc7eo8sw*ho@z+s%h40jodxr&z-2*mmkh8v+#n+9l0le1*tkfr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['drugibrzeg.pl','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['brzegciszy.pl','127.0.0.1','localhost']
 
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8000'
