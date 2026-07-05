@@ -260,12 +260,7 @@ $(function () {
 
     const smoother = ScrollSmoother.create({
 
-    if (!isiOS) {
-    ScrollSmoother.create({
-        smooth: 2,
-        effects: true
-    });
-}
+
 
         content: "#scrollsmoother-container",
         smooth: 1.5,
